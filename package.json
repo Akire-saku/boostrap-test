@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss styles/scss/main.scss   styles/css/main.css",
+    "build-css": "node-sass --include-path scss styles/index.scss   styles/index.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },

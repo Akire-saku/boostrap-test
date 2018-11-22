@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/index.css">
     <title>Title</title>
 </head>
-<body>
+<header>
+    <nav class="nav bg-primary text-white p-lg-3">
 
+        <a class="nav-link active text-white" href="#">Active</a>
+        <a class="nav-link text-white" href="#">Link</a>
+        <a class="nav-link text-white" href="#">Link</a>
+        <a class="nav-link disabled " href="#">Disabled</a>
+    </nav>
+</header>
+<body>
+<div class="container p-3">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-primary">
+                Notifications <span class="badge badge-light">4</span>
+            </button>
+            <p></p>
+            <span class="badge badge-primary">Primary</span>
+        </div>
+        <div class="col-md-2">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 >Fluid jumbotron</h1>
+                    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <ul class="list-group">
+                <li class="list-group-item active">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+        <div class="col-md-2">
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                Tooltip on top
+            </button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 bg-primary h-100px">
+    </div>
+</div>
 </body>
+<footer style="    position: absolute;
+    bottom: 0;
+    width: 100%;">
+    <div class="bg-secondary h-100px"></div>
+</footer>
 </html>

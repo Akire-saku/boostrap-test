@@ -62,3 +62,4 @@ typings/
 
 # jetbrains
 *.idea
+.idea/
