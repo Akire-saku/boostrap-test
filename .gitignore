@@ -63,3 +63,7 @@ typings/
 # jetbrains
 *.idea
 .idea/
+
+.DS_Store
+package-lock.json
+
